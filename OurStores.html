@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>NEXT | Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="nexstore.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      	 <li><a href="#"><b>Social:</b></a></li>
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+        <li><a href="#" class="fa fa-youtube"></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Brand Area -->
+<div class="site-branding-area">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="logo">
+					<h1 style="color:#FFFFFF;font-family:Helvetica;font-size:15px"><a href="D:/WebDev/StoreHome.html"><img src="logo.jpg" alt="Image" style="width:225px;height:100px"></a>A Luxury Departmental Store</h1>
+				</div>
+            </div>
+         </div>
+    </div>   
+</div>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="D:/WebDev/StoreHome.html">  Home  </a>
+    </div>
+    <ul class="nav navbar-nav">
+      	<li class="dropdown">
+        <a href="#"> Electronics <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="D:/WebDev/Elec-Computer.html">Computers</a></li>
+              <li><a href="D:/WebDev/Elec-Mobile.html">Mobile Phones</a></li>
+              <li><a href="D:/WebDev/Elec-Media.html">Media Devices</a></li>
+              <li><a href="D:/WebDev/Elec-Accessories.html">Accessories</a></li>
+            </ul>	
+        </li>
+        <li class="dropdown">
+        <a href="#"> Apparel <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="D:/WebDev/Apparel-Men.html">Men</a></li>
+              <li><a href="D:/WebDev/Apparel-Women.html">Women</a></li>
+              <li><a href="D:/WebDev/Apparel-Kids.html">Kids</a></li>
+            </ul>
+      	</li>
+        <li class="dropdown">
+        <a href="#"> Health and Beauty <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="D:/WebDev/HnB-Health.html">Health</a></li>
+              <li><a href="D:/WebDev/HnB-Body.html">Body Care</a></li>
+              <li><a href="D:/WebDev/HnB-Toilet.html">Toiletries</a></li>
+            </ul>
+      	</li>
+        <li class="dropdown">
+        <a href="#"> Home Decor <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="D:/WebDev/Home-Bedroom.html">Bedroom</a></li>
+              <li><a href="D:/WebDev/Home-Bathroom.html">Bathroom</a></li>
+              <li><a href="D:/WebDev/Home-Kitchen.html">Kitchen</a></li>
+            </ul>
+      	</li>
+        <li class="dropdown">
+        <a href="#"> Sports <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="D:/WebDev/Sports-Outdoor.html">Outdoor</a></li>
+              <li><a href="D:/WebDev/Sports-Indoor.html">Indoor</a></li>
+              <li><a href="D:/WebDev/Sports-Indoor.html">E-sports</a></li>
+            </ul>
+      	</li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="D:/WebDev/OurStores.html"><span class="glyphicon glyphicon-shopping-cart"></span> Our Stores </a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact Us  </a></li>
+    </ul>
+  </div>
+</nav>
+<br>
+<br>
+<div class="container">
+    <h2>How to Reach</h2>
+    <br>
+    <h5>NEXT Departmental Store</h5>
+    <h6>Address Line 1</h6>
+    <h6>Address Line 2</h6>
+    <h6>Address Line 3</h6>
+    <hr>
+    <div id="googleMap" style="width:350px;height:350px;"></div>
+    <script>
+    function myMap() {
+    var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7DEwjyWBHSTDcUBS9xETum0Juf2OUf44&callback=myMap"></script>
+    
+    <br>
+    <br>
+</div>
+<!-- Footer -->
+<footer>
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+  </div>
+  <br>
+  <div class="col-md-3"></div>
+  <div class="container">
+  	<div class="row">
+		<div class="col-md-9">
+			<div class="copyright">
+				<p>&copy2017 NEXTSTORE Corporation. </p>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="footer-card-icon" style="height:200%">
+				<i class="fa fa-cc-discover"></i>
+				<i class="fa fa-cc-mastercard"></i>
+				<i class="fa fa-cc-paypal"></i>
+				<i class="fa fa-cc-visa"></i>
+			</div>
+		</div>
+		</div>
+	</div>
+</footer>
+ 
+</body>
+</html>

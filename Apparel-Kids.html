@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NEXT | Kid's Apparel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="nexstore.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      	 <li><a href="#"><b>Social:</b></a></li>
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+        <li><a href="#" class="fa fa-youtube"></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Brand Area -->
+<div class="site-branding-area">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="logo">
+					<h1 style="color:#FFFFFF;font-family:Helvetica;font-size:15px"><a href="D:/WebDev/StoreHome.html"><img src="logo.jpg" alt="Image" style="width:225px;height:100px"></a>A Luxury Departmental Store</h1>
+				</div>
+            </div>
+         </div>
+    </div>   
+</div>
+ <!-- Navigation Bar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="D:/WebDev/StoreHome.html">  Home  </a>
+    </div>
+    <ul class="nav navbar-nav">
+      	<li class="dropdown">
+        <a href="#"> Electronics <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="D:/WebDev/Elec-Computer.html">Computers</a></li>
+              <li><a href="D:/WebDev/Elec-Mobile.html">Mobile Phones</a></li>
+              <li><a href="D:/WebDev/Elec-Media.html">Media Devices</a></li>
+              <li><a href="D:/WebDev/Elec-Accessories.html">Accessories</a></li>
+            </ul>	
+        </li>
+        <li class="dropdown">
+        <a href="#"> Apparel <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="D:/WebDev/Apparel-Men.html">Men</a></li>
+              <li><a href="D:/WebDev/Apparel-Women.html">Women</a></li>
+              <li><a href="D:/WebDev/Apparel-Kids.html">Kids</a></li>
+            </ul>
+      	</li>
+        <li class="dropdown">
+        <a href="#"> Health and Beauty <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="D:/WebDev/HnB-Health.html">Health</a></li>
+              <li><a href="D:/WebDev/HnB-Body.html">Body Care</a></li>
+              <li><a href="D:/WebDev/HnB-Toilet.html">Toiletries</a></li>
+            </ul>
+      	</li>
+        <li class="dropdown">
+        <a href="#"> Home Decor <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="D:/WebDev/Home-Bedroom.html">Bedroom</a></li>
+              <li><a href="D:/WebDev/Home-Bathroom.html">Bathroom</a></li>
+              <li><a href="D:/WebDev/Home-Kitchen.html">Kitchen</a></li>
+            </ul>
+      	</li>
+        <li class="dropdown">
+        <a href="#"> Sports <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="D:/WebDev/Sports-Outdoor.html">Outdoor</a></li>
+              <li><a href="D:/WebDev/Sports-Indoor.html">Indoor</a></li>
+              <li><a href="D:/WebDev/Sports-Indoor.html">E-sports</a></li>
+            </ul>
+      	</li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="OurStores"><span class="glyphicon glyphicon-shopping-cart"></span> Our Stores </a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact Us  </a></li>
+    </ul>
+  </div>
+</nav>
+<br>
+<!-- Product Showcase -->
+<div class="row column text-center">
+      <h2>Bestsellers</h2>
+      <hr>
+</div>
+<!-- Row 1 -->
+<div class="single-product-area">
+	<div class="container" >
+     	<div class="row">
+         	<div class="col-md-3 col-sm-6">
+                	<button id="myBtn1" class="button" >
+                        <div class="product-upper">
+                            <img src="D:/WebDev/img.jpg" alt="" style="width:100px;height:100px">
+                        </div>
+                        <h5><b>Product Name</b><br>Features</h5>
+                        <div class="product-carousel-price">
+                                <p>$price</p>
+                        </div>  
+                    </button>
+                    <!-- The Modal -->
+                    <div id="myModal1" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close" onclick="document.getElementById('myModal1').style.display='none'">&times;</span>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="product-images">
+                                    <div class="product-main-img">
+                                        <img src="D:/WebDev/img.jpg" alt="" style="width:400px;height:400px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                    <h2 class="product-name"><b>Product Name</b></h2>
+                                    <br>
+                                    <div class="product-inner-price">
+                                        <ins>$discounted price</ins> <del>$actual price</del>
+                                    </div>    
+                                    <br>
+                                    <h5><b>Colours</b> : Colour options</h5>
+                                    <h5><b>Models</b> : Model options</h5>
+                                    <hr>
+                                    <h3>Product Description</h3>  
+                                        <p>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature</p>
+                           </div>
+                 		</div>
+                      </div>
+                    </div>
+         	</div>
+           <div class="col-md-3 col-sm-6">
+                	<button id="myBtn2" class="button" >
+                        <div class="product-upper">
+                            <img src="D:/WebDev/img.jpg" alt="" style="width:100px;height:100px">
+                        </div>
+                        <h5><b>Product Name</b><br>Features</h5>
+                        <div class="product-carousel-price">
+                                <p>$price</p>
+                        </div>  
+                    </button>
+                    <!-- The Modal -->
+                    <div id="myModal2" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close" onclick="document.getElementById('myModal2').style.display='none'">&times;</span>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="product-images">
+                                    <div class="product-main-img">
+                                        <img src="D:/WebDev/img.jpg" alt="" style="width:400px;height:400px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                    <h2 class="product-name"><b>Product Name</b></h2>
+                                    <br>
+                                    <div class="product-inner-price">
+                                        <ins>$discounted price</ins> <del>$actual price</del>
+                                    </div>    
+                                    <br>
+                                    <h5><b>Colours</b> : Colour options</h5>
+                                    <h5><b>Models</b> : Model options</h5>
+                                    <hr>
+                                    <h3>Product Description</h3>  
+                                        <p>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature</p>
+                           </div>
+                 		</div>
+                      </div>
+                    </div>
+         	</div>
+            <div class="col-md-3 col-sm-6">
+                	<button id="myBtn3" class="button" >
+                        <div class="product-upper">
+                            <img src="D:/WebDev/img.jpg" alt="" style="width:100px;height:100px">
+                        </div>
+                        <h5><b>Product Name</b><br>Features</h5>
+                        <div class="product-carousel-price">
+                                <p>$price</p>
+                        </div>  
+                    </button>
+                    <!-- The Modal -->
+                    <div id="myModal3" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close" onclick="document.getElementById('myModal3').style.display='none'">&times;</span>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="product-images">
+                                    <div class="product-main-img">
+                                        <img src="D:/WebDev/img.jpg" alt="" style="width:400px;height:400px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                    <h2 class="product-name"><b>Product Name</b></h2>
+                                    <br>
+                                    <div class="product-inner-price">
+                                        <ins>$discounted price</ins> <del>$actual price</del>
+                                    </div>    
+                                    <br>
+                                    <h5><b>Colours</b> : Colour options</h5>
+                                    <h5><b>Models</b> : Model options</h5>
+                                    <hr>
+                                    <h3>Product Description</h3>  
+                                        <p>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature</p>
+                           </div>
+                 		</div>
+                      </div>
+                    </div>
+         	</div>
+            <div class="col-md-3 col-sm-6">
+                	<button id="myBtn4" class="button" >
+                        <div class="product-upper">
+                            <img src="D:/WebDev/img.jpg" alt="" style="width:100px;height:100px">
+                        </div>
+                        <h5><b>Product Name</b><br>Features</h5>
+                        <div class="product-carousel-price">
+                                <p>$price</p>
+                        </div>  
+                    </button>
+                    <!-- The Modal -->
+                    <div id="myModal4" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close" onclick="document.getElementById('myModal4').style.display='none'">&times;</span>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="product-images">
+                                    <div class="product-main-img">
+                                        <img src="D:/WebDev/img.jpg" alt="" style="width:400px;height:400px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                    <h2 class="product-name"><b>Product Name</b></h2>
+                                    <br>
+                                    <div class="product-inner-price">
+                                        <ins>$discounted price</ins> <del>$actual price</del>
+                                    </div>    
+                                    <br>
+                                    <h5><b>Colours</b> : Colour options</h5>
+                                    <h5><b>Models</b> : Model options</h5>
+                                    <hr>
+                                    <h3>Product Description</h3>  
+                                        <p>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature</p>
+                           </div>
+                 		</div>
+                      </div>
+                    </div>
+         	</div>
+    	</div>
+ 	</div>
+ </div>
+
+<div class="row column text-center">
+      <h2>New Releases</h2>
+      <hr>
+</div>
+<div class="single-product-area">
+	<div class="container">
+     	<div class="row">
+         	<div class="col-md-3 col-sm-6">
+                	<button id="myBtn5" class="button" >
+                        <div class="product-upper">
+                            <img src="D:/WebDev/img.jpg" alt="" style="width:100px;height:100px">
+                        </div>
+                        <h5><b>Product Name</b><br>Features</h5>
+                        <div class="product-carousel-price">
+                                <p>$price</p>
+                        </div>  
+                    </button>
+                    <!-- The Modal -->
+                    <div id="myModal5" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close" onclick="document.getElementById('myModal5').style.display='none'">&times;</span>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="product-images">
+                                    <div class="product-main-img">
+                                        <img src="D:/WebDev/img.jpg" alt="" style="width:400px;height:400px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                    <h2 class="product-name"><b>Product Name</b></h2>
+                                    <br>
+                                    <div class="product-inner-price">
+                                        <ins>$discounted price</ins> <del>$actual price</del>
+                                    </div>    
+                                    <br>
+                                    <h5><b>Colours</b> : Colour options</h5>
+                                    <h5><b>Models</b> : Model options</h5>
+                                    <hr>
+                                    <h3>Product Description</h3>  
+                                        <p>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature</p>
+                           </div>
+                 		</div>
+                      </div>
+                    </div>
+         	</div>
+            <div class="col-md-3 col-sm-6">
+                	<button id="myBtn6" class="button" >
+                        <div class="product-upper">
+                            <img src="D:/WebDev/img.jpg" alt="" style="width:100px;height:100px">
+                        </div>
+                        <h5><b>Product Name</b><br>Features</h5>
+                        <div class="product-carousel-price">
+                                <p>$price</p>
+                        </div>  
+                    </button>
+                    <!-- The Modal -->
+                    <div id="myModal6" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close" onclick="document.getElementById('myModal6').style.display='none'">&times;</span>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="product-images">
+                                    <div class="product-main-img">
+                                        <img src="D:/WebDev/img.jpg" alt="" style="width:400px;height:400px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                    <h2 class="product-name"><b>Product Name</b></h2>
+                                    <br>
+                                    <div class="product-inner-price">
+                                        <ins>$discounted price</ins> <del>$actual price</del>
+                                    </div>    
+                                    <br>
+                                    <h5><b>Colours</b> : Colour options</h5>
+                                    <h5><b>Models</b> : Model options</h5>
+                                    <hr>
+                                    <h3>Product Description</h3>  
+                                        <p>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature</p>
+                           </div>
+                 		</div>
+                      </div>
+                    </div>
+         	</div>
+        <div class="col-md-3 col-sm-6">
+                	<button id="myBtn7" class="button" >
+                        <div class="product-upper">
+                            <img src="D:/WebDev/img.jpg" alt="" style="width:100px;height:100px">
+                        </div>
+                        <h5><b>Product Name</b><br>Features</h5>
+                        <div class="product-carousel-price">
+                                <p>$price</p>
+                        </div>  
+                    </button>
+                    <!-- The Modal -->
+                    <div id="myModal7" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close" onclick="document.getElementById('myModal7').style.display='none'">&times;</span>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="product-images">
+                                    <div class="product-main-img">
+                                        <img src="D:/WebDev/img.jpg" alt="" style="width:400px;height:400px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                    <h2 class="product-name"><b>Product Name</b></h2>
+                                    <br>
+                                    <div class="product-inner-price">
+                                        <ins>$discounted price</ins> <del>$actual price</del>
+                                    </div>    
+                                    <br>
+                                    <h5><b>Colours</b> : Colour options</h5>
+                                    <h5><b>Models</b> : Model options</h5>
+                                    <hr>
+                                    <h3>Product Description</h3>  
+                                        <p>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature</p>
+                           </div>
+                 		</div>
+                      </div>
+                    </div>
+         	</div>
+            <div class="col-md-3 col-sm-6">
+                	<button id="myBtn8" class="button" >
+                        <div class="product-upper">
+                            <img src="D:/WebDev/img.jpg" alt="" style="width:100px;height:100px">
+                        </div>
+                        <h5><b>Product Name</b><br>Features</h5>
+                        <div class="product-carousel-price">
+                                <p>$price</p>
+                        </div>  
+                    </button>
+                    <!-- The Modal -->
+                    <div id="myModal8" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close" onclick="document.getElementById('myModal8').style.display='none'">&times;</span>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="product-images">
+                                    <div class="product-main-img">
+                                        <img src="D:/WebDev/img.jpg" alt="" style="width:400px;height:400px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                    <h2 class="product-name"><b>Product Name</b></h2>
+                                    <br>
+                                    <div class="product-inner-price">
+                                        <ins>$discounted price</ins> <del>$actual price</del>
+                                    </div>    
+                                    <br>
+                                    <h5><b>Colours</b> : Colour options</h5>
+                                    <h5><b>Models</b> : Model options</h5>
+                                    <hr>
+                                    <h3>Product Description</h3>  
+                                        <p>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature<br><br>Exciting Feature</p>
+                           </div>
+                 		</div>
+                      </div>
+                    </div>
+         	</div>
+         
+    	</div>
+ 	</div>
+ </div>
+<!-- Footer -->
+<footer>
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+  </div>
+  <div class="col-md-3"></div>
+  <br>
+  <div class="container">
+  	<div class="row">
+		<div class="col-md-9">
+			<div class="copyright">
+				<p>&copy2017 NEXTSTORE Corporation. </p>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="footer-card-icon">
+				<i class="fa fa-cc-discover"></i>
+				<i class="fa fa-cc-mastercard"></i>
+				<i class="fa fa-cc-paypal"></i>
+				<i class="fa fa-cc-visa"></i>
+			</div>
+		</div>
+		</div>
+	</div>
+</footer>
+<script>
+// Get the modal
+var modal1 = document.getElementById('myModal1');
+var modal2 = document.getElementById('myModal2');
+var modal3 = document.getElementById('myModal3');
+var modal4 = document.getElementById('myModal4');
+var modal5 = document.getElementById('myModal5');
+var modal6 = document.getElementById('myModal6');
+var modal7 = document.getElementById('myModal7');
+var modal8 = document.getElementById('myModal8');
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("myBtn1");
+var btn2 = document.getElementById("myBtn2");
+var btn3 = document.getElementById("myBtn3");
+var btn4 = document.getElementById("myBtn4");
+var btn5 = document.getElementById("myBtn5");
+var btn6 = document.getElementById("myBtn6");
+var btn7 = document.getElementById("myBtn7");
+var btn8 = document.getElementById("myBtn8");
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function() {
+    modal1.style.display = "block";
+}
+btn2.onclick = function() {
+    modal2.style.display = "block";
+}
+btn3.onclick = function() {
+    modal3.style.display = "block";
+}
+btn4.onclick = function() {
+    modal4.style.display = "block";
+}
+btn5.onclick = function() {
+    modal5.style.display = "block";
+}
+btn6.onclick = function() {
+    modal6.style.display = "block";
+}
+btn7.onclick = function() {
+    modal7.style.display = "block";
+}
+btn9.onclick = function() {
+    modal9.style.display = "block";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+}
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+}
+window.onclick = function(event) {
+    if (event.target == modal3) {
+        modal3.style.display = "none";
+    }
+}
+window.onclick = function(event) {
+    if (event.target == modal4) {
+        modal4.style.display = "none";
+    }
+}
+window.onclick = function(event) {
+    if (event.target == modal5) {
+        modal5.style.display = "none";
+    }
+}
+window.onclick = function(event) {
+    if (event.target == modal6) {
+        modal6.style.display = "none";
+    }
+}
+window.onclick = function(event) {
+    if (event.target == modal7) {
+        modal7.style.display = "none";
+    }
+}
+window.onclick = function(event) {
+    if (event.target == modal8) {
+        modal8.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
